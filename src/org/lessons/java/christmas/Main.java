@@ -9,10 +9,10 @@ public class Main {
 		List<String> wishList = new ArrayList<>();
 		
 		Scanner sc = new Scanner(System.in);
-		//System.out.println("1 - new wish");
-		//String wish = sc.nextLine();
-		//wishList.add(wish);
-		//System.out.println(wishList);
+//		System.out.println("1 - new wish");
+//		String wish = sc.nextLine();
+//		wishList.add(wish);
+//		System.out.println(wishList);
 		
 		int userVal = -1;
 		
