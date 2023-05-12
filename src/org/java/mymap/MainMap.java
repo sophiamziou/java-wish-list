@@ -14,6 +14,8 @@ public class MainMap {
 
 		for (String word : str.split(" ")) {
 			
+			if (!word.chars().allMatch(Character::isLetter)) continue;
+			
 			if (occCounter.containsKey(word)) {
 				
 				occCounter.put(word, occCounter.get(word) + 1);
